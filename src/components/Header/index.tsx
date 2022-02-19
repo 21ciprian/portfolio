@@ -20,35 +20,41 @@ function Header({}: Props) {
 		}
 	}, [])
 	return (
-		<header>
-			<Navbar
-				collapseOnSelect
-				fixed='top'
-				className={navbar ? `${styles.navbar}` : `${styles.hidden}`}
-				expand='sm'
-				variant='dark'>
-				<Navbar.Brand href='#home'>
-					<img src={logo} className={styles.logo} alt='logo' />
-				</Navbar.Brand>
-				<Navbar.Toggle aria-controls='responsive-navbar-nav' />
-				<Navbar.Collapse id='responsive-navbar-nav'>
-					<Nav className='ml-auto'>
+		<Navbar
+			collapseOnSelect
+			fixed='top'
+			className={navbar ? `${styles.navbar}` : `${styles.hidden}`}
+			expand='sm'
+			variant='dark'>
+			<Navbar.Brand href='#home'>
+				<img src={logo} className={styles.logo} alt='logo' />
+			</Navbar.Brand>
+			<Navbar.Toggle aria-controls='responsive-navbar-nav' />
+			<Navbar.Collapse className='justify-content-end'>
+				<Nav defaultActiveKey='#home'>
+					<Nav.Item>
 						<Nav.Link className={styles.navLinks} href='#home'>
 							HOME
 						</Nav.Link>
+					</Nav.Item>
+					<Nav.Item>
 						<Nav.Link className={styles.navLinks} href='#projects'>
 							PROJECTS
 						</Nav.Link>
+					</Nav.Item>
+					<Nav.Item>
 						<Nav.Link className={styles.navLinks} href='#about'>
 							ABOUT
 						</Nav.Link>
+					</Nav.Item>
+					<Nav.Item>
 						<Nav.Link className={styles.navLinks} href='#contact'>
 							CONTACT
 						</Nav.Link>
-					</Nav>
-				</Navbar.Collapse>
-			</Navbar>
-		</header>
+					</Nav.Item>
+				</Nav>
+			</Navbar.Collapse>
+		</Navbar>
 	)
 }
 
