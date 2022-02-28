@@ -7,7 +7,6 @@ type Props = {}
 function Home({}: Props) {
 	return (
 		<div className={style.home}>
-			<h2>Home</h2>
 			<Greet />
 		</div>
 	)
