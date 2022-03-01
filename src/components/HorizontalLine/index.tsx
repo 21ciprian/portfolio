@@ -6,7 +6,7 @@ type Props = {}
 function HorizontalLine({}: Props) {
 	return (
 		<div className={styles.lineContainer}>
-			<hr className={styles.line} />
+			<div className={styles.line}></div>
 		</div>
 	)
 }
