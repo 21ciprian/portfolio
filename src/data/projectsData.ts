@@ -1,7 +1,7 @@
 import calc from '../assets/calc.png'
 import hangman from '../assets/hangman.png'
 import morse from '../assets/morse.jpg'
-// import r from '../assets/r1.mp4'
+import r from '../assets/r1.mp4'
 
 const projectsData = [
 	{
@@ -11,7 +11,7 @@ const projectsData = [
 		description: 'Calculator made with Vanilla Javascript, HTML and SCSS',
 		gitLink: 'lorem',
 		liveSite: 'lorem',
-		video: '../assets/r1.mp4',
+		src: r,
 	},
 	{
 		id: 2,
@@ -21,7 +21,7 @@ const projectsData = [
 			'Morse Code Translator app made with Vanilla Javascript, HTML and SCSS. It allows you to convert english to morse code and morse code to english',
 		gitLink: 'lorem',
 		liveSite: 'lorem',
-		video: '../assets/r1.mp4',
+		src: r,
 	},
 	{
 		id: 3,
@@ -30,7 +30,7 @@ const projectsData = [
 		description: 'Hangman Game made with HTML, SCSS and Vanilla Javascript',
 		gitLink: 'lorem',
 		liveSite: 'lorem',
-		video: '../assets/r1.mp4',
+		src: r,
 	},
 ]
 
