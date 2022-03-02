@@ -1,5 +1,6 @@
 import projectsData from '../../data/projectsData'
 import Button from '../Button'
+import Title from '../Title'
 import styles from './Projects.module.css'
 
 console.log('projectsData: ', projectsData)
@@ -16,7 +17,7 @@ function Projects() {
 	}
 	return (
 		<section className={styles.projects}>
-			<h2>PROJECTS</h2>
+			<Title title='PROJECTS' />
 			<section className={styles.projects__container}>
 				{projectsData.map(p => {
 					return (
