@@ -1,5 +1,6 @@
 import React from 'react'
 import {ParallaxProvider} from 'react-scroll-parallax'
+import About from '../About'
 import Header from '../Header'
 import Home from '../Home'
 import HorizontalLine from '../HorizontalLine'
@@ -13,6 +14,7 @@ function App() {
 				<Header />
 				<Home />
 				<HorizontalLine />
+				<About />
 				<Projects />
 				<HorizontalLine />
 			</div>
