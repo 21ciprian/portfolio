@@ -1,26 +1,79 @@
 .projects {
 	display: flex;
 	flex-direction: column;
+	margin: 5rem auto;
+}
+.projects h2 {
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 3rem;
 }
 .projects__container {
 	display: flex;
 	flex-direction: column;
-	position: relative;
-	width: 300px;
-	height: 400px;
-	border: 5px solid #182a3e;
-	border-radius: 5px;
+	gap: 5rem;
+	width: 70%;
+
 	box-sizing: border-box;
 	align-self: center;
 	justify-self: center;
 }
+.project__container {
+	display: flex;
+	border-radius: 5px;
+
+	flex-direction: row;
+	justify-content: space-between;
+	height: 22rem;
+	background-color: #182a3e;
+	transform: scale(1);
+	transition: transform 0.2s linear;
+}
 .project__container:hover {
-	box-shadow: 0 5px 15px black;
-	transform: scale(1.02);
-	transition: 0.3s ease-in-out;
+	transform: scale(1.01);
+	box-shadow: 10px 10px 40px black;
+}
+.project__left {
+	width: 40%;
+	height: 100%;
+	color: white;
+}
+.project__imgContainer img {
+	width: 10rem;
+}
+.project__content {
+	padding: 0.5rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.project__content h4 {
+	text-align: center;
+}
+.project__content h6 {
+	text-decoration: underline;
+	text-align: center;
 }
 
+.tech {
+	display: flex;
+	gap: 0.5rem;
+}
+.tech p {
+	border: 2px solid white;
+	width: max-content;
+	border-radius: 0.5rem;
+	padding: 0.1rem 1rem;
+}
+.project__btnLinks {
+	display: flex;
+	width: 100%;
+	gap: 0.5rem;
+	justify-content: space-between;
+}
 video {
+	width: 720px;
 	filter: grayscale(100%);
 }
 video:hover {

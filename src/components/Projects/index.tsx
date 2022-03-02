@@ -20,14 +20,18 @@ function Projects() {
 			<section className={styles.projects__container}>
 				{projectsData.map(p => {
 					return (
-						<section key={p.id} className={styles.project_container}>
-							<section>
-								<div className={styles.project__imgContainer}>
-									<img src={p.imageSrc} alt={p.name} />
-								</div>
+						<section key={p.id} className={styles.project__container}>
+							<section className={styles.project__left}>
 								<div className={styles.project__content}>
 									<h4>{p.name}</h4>
 									<p>{p.description}</p>
+									<h6>Tech Used:</h6>
+
+									<section className={styles.tech}>
+										{p.tech.map(t => {
+											return <p key={t}>{t}</p>
+										})}
+									</section>
 									<div className={styles.project__btnLinks}>
 										<Button link={p.gitLink} name='GitHub' />
 										<Button link={p.launch} name='Launch' />
@@ -38,8 +42,8 @@ function Projects() {
 								key={p.id}
 								onMouseOver={playVideo}
 								onMouseOut={pauseVideo}
-								width='520'
-								height='440'
+								// width='520'
+								// height='440'
 								preload='auto'
 								loop
 								src={p.src}></video>

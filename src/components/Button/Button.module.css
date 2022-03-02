@@ -1,16 +1,16 @@
 .button {
-	background: linear-gradient(315deg, #182a3e 0%, #121f2d 74%);
+	background: #182a3e;
 	width: 100%;
 	padding: 5px 20px;
 	text-align: center;
-	border: 3px solid white;
-	border-radius: 20px;
+	border: 2px solid white;
+	border-radius: 0.5rem;
 }
 .button a {
 	color: white;
 	text-decoration: none;
 }
 .button:hover {
-	background: linear-gradient(315deg, #696c6d 0%, #4d4846 74%);
+	background: #47baff;
 	cursor: pointer;
 }
