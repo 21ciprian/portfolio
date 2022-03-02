@@ -1,9 +1,7 @@
 import React from 'react'
 import styles from './About.module.css'
 
-type Props = {}
-
-function About({}: Props) {
+function About() {
 	return (
 		<article id='about'>
 			<section className={styles.about}>
