@@ -9,8 +9,9 @@ const projectsData = [
 		name: 'Calculator',
 		imageSrc: calc,
 		description: 'Calculator made with Vanilla Javascript, HTML and SCSS',
+		tech: ['Javascript', 'HTML', 'CSS'],
 		gitLink: 'lorem',
-		liveSite: 'lorem',
+		launch: 'lorem',
 		src: r,
 	},
 	{
@@ -19,8 +20,9 @@ const projectsData = [
 		imageSrc: morse,
 		description:
 			'Morse Code Translator app made with Vanilla Javascript, HTML and SCSS. It allows you to convert english to morse code and morse code to english',
+		tech: ['Javascript', 'HTML', 'CSS'],
 		gitLink: 'lorem',
-		liveSite: 'lorem',
+		launch: 'lorem',
 		src: r,
 	},
 	{
@@ -28,8 +30,9 @@ const projectsData = [
 		name: 'Hangman Game',
 		imageSrc: hangman,
 		description: 'Hangman Game made with HTML, SCSS and Vanilla Javascript',
+		tech: ['Javascript', 'HTML', 'CSS'],
 		gitLink: 'lorem',
-		liveSite: 'lorem',
+		launch: 'lorem',
 		src: r,
 	},
 ]

@@ -1,5 +1,4 @@
 import React from 'react'
-// import ReactPlayer from 'react-player'
 import {ParallaxProvider} from 'react-scroll-parallax'
 import Header from '../Header'
 import Home from '../Home'

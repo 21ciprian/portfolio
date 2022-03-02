@@ -1,11 +1,9 @@
-import React, {useEffect, useState} from 'react'
+import {useEffect, useState} from 'react'
 import {Nav, Navbar} from 'react-bootstrap'
 import logo from '../../assets/logo.svg'
 import styles from './Header.module.css'
 
-type Props = {}
-
-function Header({}: Props) {
+function Header() {
 	const [navbar, setNavbar] = useState(true)
 	useEffect(() => {
 		let prevScrollpos = window.pageYOffset

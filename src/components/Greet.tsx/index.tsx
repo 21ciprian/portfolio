@@ -2,9 +2,7 @@ import React from 'react'
 import {Typewriter} from 'react-simple-typewriter'
 import styles from './Greet.module.css'
 
-type Props = {}
-
-function Greet({}: Props) {
+function Greet() {
 	return (
 		<article>
 			<section className={styles.heading}>

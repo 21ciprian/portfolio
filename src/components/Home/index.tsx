@@ -1,10 +1,7 @@
-import React from 'react'
 import Greet from '../Greet.tsx'
 import style from './Home.module.css'
 
-type Props = {}
-
-function Home({}: Props) {
+function Home() {
 	return (
 		<div className={style.home}>
 			<Greet />
