@@ -1,9 +1,10 @@
 import React from 'react'
+import Title from '../Title'
 import styles from './About.module.css'
-
 function About() {
 	return (
 		<article id='about'>
+			<Title title='ABOUT ME' />
 			<section className={styles.about}>
 				<p>
 					Hi, I'm Ciprian, a <strong>full-stack developer</strong> and{' '}
@@ -15,13 +16,13 @@ function About() {
 					industry.
 				</p>
 				<p>
-					I have recently graduated from{' '}
+					I have recently graduated from
 					<a
 						href='https://www.schoolofcode.co.uk/'
 						target='_blank'
 						rel='noreferrer'>
 						<strong>School of Code</strong> Software Development Bootcamp
-					</a>{' '}
+					</a>
 					and I am excited to embark on a new career as software developer.
 				</p>
 			</section>
