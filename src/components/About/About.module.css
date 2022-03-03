@@ -21,3 +21,8 @@
 	flex-direction: column;
 	padding: 0px 50px;
 }
+.image__container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
