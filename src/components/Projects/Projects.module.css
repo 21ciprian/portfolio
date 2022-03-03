@@ -1,13 +1,16 @@
 .projects {
 	display: flex;
 	flex-direction: column;
-	margin: 5rem auto;
+	/* padding: 5rem auto; */
 	/* background-color: #f7f5fb; */
+	background: linear-gradient(315deg, #182a3e 0%, #121f2d 74%);
 }
 .projects h2 {
 	text-align: center;
+	color: white;
 	text-decoration: underline;
-	margin-bottom: 3rem;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
 }
 .projects__container {
 	display: flex;
