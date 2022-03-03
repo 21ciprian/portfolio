@@ -16,14 +16,15 @@ function About() {
 					industry.
 				</p>
 				<p>
-					I have recently graduated from
+					I have recently graduated from{' '}
 					<a
 						href='https://www.schoolofcode.co.uk/'
 						target='_blank'
 						rel='noreferrer'>
-						<strong>School of Code</strong> Software Development Bootcamp
-					</a>
-					and I am excited to embark on a new career as software developer.
+						<strong>School of Code</strong>
+					</a>{' '}
+					Software Development Bootcamp and I am excited to embark on a new
+					career as software developer.
 				</p>
 			</section>
 		</article>
