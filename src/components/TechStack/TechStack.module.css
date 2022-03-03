@@ -19,3 +19,11 @@
 	padding: 0px 50px;
 	margin: 90px 0;
 }
+.tech__text h5 {
+	text-decoration: underline;
+}
+.image__container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
