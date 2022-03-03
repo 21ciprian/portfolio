@@ -14,9 +14,9 @@ function App() {
 				<Header />
 				<Home />
 				<HorizontalLine />
-				<Projects />
-				<HorizontalLine />
 				<About />
+				<HorizontalLine />
+				<Projects />
 				<HorizontalLine />
 			</div>
 		</ParallaxProvider>
