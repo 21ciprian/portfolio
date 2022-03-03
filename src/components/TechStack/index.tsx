@@ -18,22 +18,22 @@ function TechStack() {
 					<br />
 					<h5>Front-End:</h5>
 					<p>
-						React, Typescript, Styled-Components, Material UI, AOS, Sass(SCSS),
-						Bootstrap
+						React, Typescript, Chakra, Styled-Components, MUI, Bootstrap,
+						Sass(SCSS), Netlify
 					</p>
 
 					<br />
 					<h5>Back-end:</h5>
 					<p>
-						Node.js, Express, REST API, Google Firebase, Firestore, MongoDB,
-						Hosting
+						Node.js, Express.js, REST API, PostgreSQL, OAuth, Heroku, Postman.
 					</p>
 					<br />
+					<h5>Testing Libraries:</h5>
+					<p>Jest, SuperTest, React Testing Library, Cypress.</p>
 					<h5>Software Development:</h5>
 					<p>
-						Git & GitHub, Jira, Trello, NPM, Yarn, Babel, SPA, TDD, Jest,
-						Enzyme, OOP, Agile, Scrum, Pair programming, VS Code, Postman,
-						Figma, Canva.
+						Git & GitHub, Jira, Trello, NPM, Yarn, SPA, TDD, Agile, Scrum, Pair
+						programming, VS Code, Figma, Canva, Draw.io.
 					</p>
 				</section>
 			</section>
