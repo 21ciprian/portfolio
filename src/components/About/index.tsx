@@ -1,4 +1,5 @@
 import React from 'react'
+import programmer from '../../assets/programmer.svg'
 import Title from '../Title'
 import styles from './About.module.css'
 function About() {
@@ -27,6 +28,10 @@ function About() {
 					career as software developer.
 				</p>
 			</section>
+			<div className={styles.image__container}>
+				{' '}
+				<img src={programmer} className={styles.programmer} alt='programmer' />
+			</div>
 		</article>
 	)
 }
