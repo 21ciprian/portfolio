@@ -2,7 +2,7 @@
 	display: flex;
 	flex-direction: column;
 	margin: 5rem auto;
-	background-color: #f7f5fb;
+	/* background-color: #f7f5fb; */
 }
 .projects h2 {
 	text-align: center;
@@ -21,7 +21,7 @@
 }
 .project__container {
 	display: flex;
-	border-radius: 5px;
+	border-radius: 1rem;
 
 	flex-direction: row;
 	justify-content: space-between;
@@ -38,6 +38,10 @@
 	width: 40%;
 	height: 100%;
 	color: white;
+	border-top-left-radius: inherit;
+	border-bottom-left-radius: inherit;
+
+	background-color: #9e7837;
 }
 .project__imgContainer img {
 	width: 10rem;
@@ -75,6 +79,8 @@
 }
 video {
 	width: 720px;
+	border-top-right-radius: inherit;
+	border-bottom-right-radius: inherit;
 	filter: grayscale(100%);
 }
 video:hover {
