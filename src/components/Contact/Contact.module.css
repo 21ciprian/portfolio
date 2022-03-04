@@ -26,7 +26,7 @@
 	width: 100%;
 	margin: auto;
 }
-.github {
+.contactMe .github {
 	position: absolute;
 	top: 48%;
 	left: 21%;
@@ -39,7 +39,7 @@
 	box-shadow: 0 5px 15px rgb(0, 140, 255);
 }
 
-.email {
+.contactMe .email {
 	position: absolute;
 	top: 60.5%;
 	left: 41.9%;
@@ -51,7 +51,7 @@
 	transform: scale(1.01);
 	box-shadow: 0 5px 15px rgb(0, 140, 255);
 }
-.linkedin {
+.contactMe .linkedin {
 	position: absolute;
 	top: 35.3%;
 	left: 62%;
