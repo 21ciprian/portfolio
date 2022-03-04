@@ -1,8 +1,7 @@
 .projects {
 	display: flex;
 	flex-direction: column;
-	/* padding: 5rem auto; */
-	/* background-color: #f7f5fb; */
+
 	background: linear-gradient(315deg, #182a3e 0%, #121f2d 74%);
 }
 .projects h2 {
@@ -28,17 +27,20 @@
 
 	flex-direction: row;
 	justify-content: space-between;
-	height: 22rem;
+	height: 21rem;
 	background-color: #182a3e;
 	transform: scale(1);
 	transition: transform 0.2s linear;
+}
+.project__container:last-of-type {
+	margin-bottom: 5rem;
 }
 .project__container:hover {
 	transform: scale(1.01);
 	box-shadow: 10px 10px 40px black;
 }
 .project__left {
-	width: 40%;
+	width: 55%;
 	height: 100%;
 	color: white;
 	border-top-left-radius: inherit;
@@ -81,7 +83,7 @@
 	justify-content: space-between;
 }
 video {
-	width: 720px;
+	width: 67%;
 	border-top-right-radius: inherit;
 	border-bottom-right-radius: inherit;
 	filter: grayscale(100%);
