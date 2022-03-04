@@ -17,7 +17,7 @@ function Contact() {
 			<div className={styles.contactMe}>
 				<img src={contact} alt='contact' className={styles.contact} />
 				<a
-					href='https://github.com/Ciprian-A'
+					href='https://github.com/21ciprian'
 					target='_blank'
 					rel='noopener noreferrer'>
 					<img src={github} alt='github' className={styles.github} />
