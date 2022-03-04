@@ -26,3 +26,15 @@
 	width: 100%;
 	margin: auto;
 }
+.github {
+	position: absolute;
+	top: 48%;
+	left: 21%;
+	width: 12%;
+	border-radius: 50%;
+}
+.github:hover {
+	cursor: pointer;
+	transform: scale(1.01);
+	box-shadow: 0 5px 15px rgb(0, 140, 255);
+}
