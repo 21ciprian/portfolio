@@ -1,8 +1,8 @@
 import React from 'react'
 import contact from '../../assets/contact.svg'
-import email from '../../assets/email.svg'
-import github from '../../assets/github.svg'
-import linkedin from '../../assets/in.svg'
+import email from '../../assets/e.svg'
+import github from '../../assets/g.svg'
+import linkedin from '../../assets/i.svg'
 import Title from '../Title'
 import styles from './Contact.module.css'
 

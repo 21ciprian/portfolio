@@ -30,8 +30,8 @@
 	position: absolute;
 	top: 48%;
 	left: 21%;
-	width: 12%;
-	border-radius: 50%;
+	width: 7%;
+	border-radius: 1rem;
 }
 .github:hover {
 	cursor: pointer;
@@ -43,8 +43,8 @@
 	position: absolute;
 	top: 60.5%;
 	left: 41.9%;
-	width: 12%;
-	border-radius: 50%;
+	width: 7%;
+	border-radius: 1rem;
 }
 .email:hover {
 	cursor: pointer;
@@ -55,8 +55,8 @@
 	position: absolute;
 	top: 35.3%;
 	left: 62%;
-	width: 12%;
-	border-radius: 50%;
+	width: 7%;
+	border-radius: 1rem;
 }
 .linkedin:hover {
 	cursor: pointer;
