@@ -38,3 +38,16 @@
 	transform: scale(1.01);
 	box-shadow: 0 5px 15px rgb(0, 140, 255);
 }
+
+.email {
+	position: absolute;
+	top: 60.5%;
+	left: 41.9%;
+	width: 12%;
+	border-radius: 50%;
+}
+.email:hover {
+	cursor: pointer;
+	transform: scale(1.01);
+	box-shadow: 0 5px 15px rgb(0, 140, 255);
+}
