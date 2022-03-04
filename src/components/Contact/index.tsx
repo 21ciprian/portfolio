@@ -4,9 +4,13 @@ import styles from './Contact.module.css'
 
 function Contact() {
 	return (
-		<div className={styles.contact__container}>
+		<section className={styles.contact__container}>
 			<Title title='CONTACT' />
-		</div>
+			<h5>
+				PLEASE FEEL FREE TO CONTACT ME VIA THE LINKS BELOW FOR ANY PROJECT
+				COLLABORATION
+			</h5>
+		</section>
 	)
 }
 
