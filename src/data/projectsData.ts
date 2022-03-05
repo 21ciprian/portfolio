@@ -18,6 +18,8 @@ const projectsData = [
 			'NPM',
 			'Git Bash',
 			'GitHub',
+			'VSCode',
+			'Netlify',
 		],
 		gitLink: 'lorem',
 		launch: 'https://matching-cards-js.netlify.app',

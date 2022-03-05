@@ -16,7 +16,7 @@ function Projects() {
 		e.currentTarget.pause()
 	}
 	return (
-		<section className={styles.projects}>
+		<section id='projects' className={styles.projects}>
 			<Title title='PROJECTS' />
 			<section className={styles.projects__container}>
 				{projectsData.map(p => {
