@@ -10,7 +10,7 @@
 	height: 100%;
 	position: relative;
 	padding: 50px 0 120px;
-	border: 2px solid black;
+	/* border: 2px solid black; */
 }
 .about__text {
 	margin-top: 40px;
