@@ -6,13 +6,21 @@ import r from '../assets/r1.mp4'
 const projectsData = [
 	{
 		id: 1,
-		name: 'Calculator',
+		name: 'Matching Cards Game',
 		imageSrc: calc,
 		description:
 			'Calculator app was one of my first small project made with JavaScript OOP',
-		tech: ['JavaScript', 'HTML5', 'CSS3'],
+		tech: [
+			'JavaScript',
+			'HTML5',
+			'CSS3',
+			'Cypress',
+			'NPM',
+			'Git Bash',
+			'GitHub',
+		],
 		gitLink: 'lorem',
-		launch: 'lorem',
+		launch: 'https://matching-cards-js.netlify.app',
 		src: r,
 	},
 	{

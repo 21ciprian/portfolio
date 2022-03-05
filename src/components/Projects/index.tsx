@@ -43,8 +43,6 @@ function Projects() {
 								key={p.id}
 								onMouseOver={playVideo}
 								onMouseOut={pauseVideo}
-								// width='520'
-								// height='440'
 								preload='auto'
 								loop
 								src={p.src}></video>

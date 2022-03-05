@@ -69,6 +69,7 @@
 .tech {
 	display: flex;
 	gap: 0.5rem;
+	flex-wrap: wrap;
 }
 .tech p {
 	border: 2px solid white;
