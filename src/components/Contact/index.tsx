@@ -1,4 +1,5 @@
 import React from 'react'
+import {Parallax} from 'react-scroll-parallax'
 import contact from '../../assets/bgSvg.svg'
 import email from '../../assets/email.svg'
 import girl from '../../assets/girl.svg'
@@ -13,10 +14,12 @@ function Contact() {
 	return (
 		<section className={styles.contact__container}>
 			<Title title='CONTACT' />
-			<h5>
-				FEEL FREE TO CONTACT ME VIA THE LINKS BELOW FOR ANY PROJECT
-				COLLABORATION
-			</h5>
+			<Parallax translateY={[-25, 30]}>
+				<h5>
+					FEEL FREE TO CONTACT ME VIA THE LINKS BELOW FOR ANY PROJECT
+					COLLABORATION
+				</h5>
+			</Parallax>
 			<div className={styles.contactMe}>
 				<img src={contact} alt='contact' className={styles.contact} />
 				<a

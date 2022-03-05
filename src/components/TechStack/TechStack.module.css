@@ -21,6 +21,10 @@
 }
 .tech__text h5 {
 	text-decoration: underline;
+	font-size: 1.7rem;
+}
+.tech__text p {
+	font-size: 1.5rem;
 }
 .image__container {
 	width: 100%;
