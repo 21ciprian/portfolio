@@ -1,6 +1,7 @@
 .contact__container {
 	position: relative;
 	z-index: 10;
+	padding-top: 5rem;
 }
 .contact__container h5 {
 	width: 80%;
@@ -36,7 +37,7 @@
 .github:hover {
 	cursor: pointer;
 	transform: scale(1.01);
-	box-shadow: 0 5px 15px rgb(0, 140, 255);
+	box-shadow: 0 5px 15px #152536;
 }
 
 .contactMe .email {
@@ -49,7 +50,7 @@
 .email:hover {
 	cursor: pointer;
 	transform: scale(1.01);
-	box-shadow: 0 5px 15px rgb(0, 140, 255);
+	box-shadow: 0 5px 15px #152536;
 }
 .contactMe .linkedin {
 	position: absolute;
@@ -61,7 +62,7 @@
 .linkedin:hover {
 	cursor: pointer;
 	transform: scale(1.01);
-	box-shadow: 0 5px 15px rgb(0, 140, 255);
+	box-shadow: 0 5px 15px #152536;
 }
 .girl {
 	width: 6%;

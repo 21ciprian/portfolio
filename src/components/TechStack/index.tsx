@@ -1,5 +1,5 @@
 import React from 'react'
-import software from '../../assets/software.svg'
+import software from '../../assets/soft.svg'
 import Title from '../Title'
 import styles from './TechStack.module.css'
 
