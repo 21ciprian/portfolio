@@ -1,8 +1,11 @@
 import React from 'react'
-import contact from '../../assets/contact.svg'
-import email from '../../assets/e.svg'
-import github from '../../assets/g.svg'
-import linkedin from '../../assets/i.svg'
+import contact from '../../assets/bgc.svg'
+import email from '../../assets/e1.svg'
+import github from '../../assets/g1.svg'
+import girl from '../../assets/girl.svg'
+import linkedin from '../../assets/i1.svg'
+import man from '../../assets/man.svg'
+import woman from '../../assets/woman.svg'
 import Title from '../Title'
 import styles from './Contact.module.css'
 
@@ -34,6 +37,9 @@ function Contact() {
 					rel='noopener noreferrer'>
 					<img src={linkedin} alt='linkedin' className={styles.linkedin} />
 				</a>
+				<img src={girl} alt='linkedin' className={styles.girl} />
+				<img src={man} alt='linkedin' className={styles.man} />
+				<img src={woman} alt='linkedin' className={styles.woman} />
 			</div>
 		</section>
 	)
