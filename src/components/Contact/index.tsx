@@ -14,7 +14,7 @@ function Contact() {
 	return (
 		<section className={styles.contact__container}>
 			<Title title='CONTACT' />
-			<Parallax translateY={[-25, 30]}>
+			<Parallax translateY={[-50, 30]}>
 				<h5>
 					FEEL FREE TO CONTACT ME VIA THE LINKS BELOW FOR ANY PROJECT
 					COLLABORATION
