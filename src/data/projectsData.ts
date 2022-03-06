@@ -9,7 +9,7 @@ const projectsData = [
 		name: 'Matching Cards Game',
 		imageSrc: calc,
 		description:
-			'Calculator app was one of my first small project made with JavaScript OOP',
+			'Fruits memory card game built with Javascript. It has score keeping functionality, timer and every time the game is reset, the fruits cards get randomized',
 		tech: [
 			'JavaScript',
 			'HTML5',
@@ -27,13 +27,22 @@ const projectsData = [
 	},
 	{
 		id: 2,
-		name: 'Morse Code Translator',
+		name: 'Poke-that-mon',
 		imageSrc: morse,
 		description:
-			'I made this Morse Code Translator app after watching the movie "Interstellar". It allows you to convert english to morse code and morse code to english.',
-		tech: ['JavaScript', 'HTML5', 'CSS3'],
+			'Pokemon app that allows you to search for your favourite pokemon in PokeAPI database and displays its stats. ',
+		tech: [
+			'TypeScript',
+			'HTML5',
+			'CSS3',
+			'NPM',
+			'Git Bash',
+			'GitHub',
+			'VSCode',
+			'Netlify',
+		],
 		gitLink: 'lorem',
-		launch: 'lorem',
+		launch: 'https://poke-that-mon.netlify.app',
 		src: r,
 	},
 	{
