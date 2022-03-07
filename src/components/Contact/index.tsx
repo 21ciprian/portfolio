@@ -12,7 +12,7 @@ import styles from './Contact.module.css'
 
 function Contact() {
 	return (
-		<section className={styles.contact__container}>
+		<section id='contact' className={styles.contact__container}>
 			<Title title='CONTACT' />
 			<Parallax translateY={[-50, 30]}>
 				<h5>

@@ -47,12 +47,24 @@ const projectsData = [
 	},
 	{
 		id: 3,
-		name: 'Hangman Game',
+		name: 'Covid-19 cases tracker',
 		imageSrc: hangman,
-		description: 'Lorem ipsum',
-		tech: ['JavaScript', 'HTML5', 'CSS3'],
+		description:
+			'Covid-19 tracker app that allows you see the latest covid cases worldwide or in a specific country.',
+		tech: [
+			'JavaScript',
+			'HTML5',
+			'CSS3',
+			'NPM',
+			'Leaflet.js',
+			'Chart.js',
+			'Git Bash',
+			'GitHub',
+			'VSCode',
+			'Netlify',
+		],
 		gitLink: 'lorem',
-		launch: 'lorem',
+		launch: 'https://c19tracker22.netlify.app',
 		src: r,
 	},
 ]
