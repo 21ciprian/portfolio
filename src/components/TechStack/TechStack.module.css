@@ -1,6 +1,6 @@
 .tech__wrapper {
 	width: 100%;
-	height: 80%;
+	height: 100%;
 	position: relative;
 }
 .tech__container {
@@ -9,9 +9,9 @@
 	width: 100%;
 	height: 100%;
 	position: relative;
-	background-image: url(../../assets/tech.svg);
+	/* background-image: url(../../assets/tech.svg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; */
 	/* border: 2px solid black; */
 	position: relative;
 	z-index: 10;
@@ -27,13 +27,15 @@
 	z-index: -1;
 }
 .tech__text {
-	width: 80%;
+	width: 100%;
 	height: 100%;
-	/* color: white; */
 	display: flex;
 	flex-direction: column;
 	padding: 0px 50px;
 	margin: 90px 0;
+}
+.tech__text h2 {
+	text-align: center;
 }
 .tech__text h5 {
 	text-decoration: underline;
