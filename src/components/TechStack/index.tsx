@@ -12,7 +12,7 @@ function TechStack() {
 					{' '}
 					<img src={software} className={styles.software} alt='software' />
 				</div>
-				<Parallax translateY={[-15, 10]}>
+				<Parallax translateY={[-10, 15]}>
 					<section className={styles.tech__text}>
 						<Title title='TECH-STACK' />
 						<h5>Languages:</h5>

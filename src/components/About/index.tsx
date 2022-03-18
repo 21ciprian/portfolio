@@ -9,7 +9,7 @@ function About() {
 	return (
 		<article id='about' className={styles.about__wrapper}>
 			<section className={styles.about__container}>
-				<Parallax translateY={[-10, 30]}>
+				<Parallax translateY={[-10, 20]}>
 					<section className={styles.about__text}>
 						<Title title='ABOUT ME' />
 						<p>

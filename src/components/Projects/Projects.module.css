@@ -52,12 +52,12 @@ section .media img {
 	filter: grayscale(0);
 }
 .project__left {
-	height: 12.5%;
+	height: 12%;
 	width: 100%;
 	color: #182a3e;
 	background-color: #f7f5fb;
 	position: absolute;
-	top: 21.85rem;
+	top: 22rem;
 	overflow: hidden;
 	border-radius: inherit;
 	cursor: pointer;

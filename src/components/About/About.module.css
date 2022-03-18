@@ -15,9 +15,6 @@
 	position: relative;
 	padding: 50px 0 120px;
 	flex-direction: column;
-	/* background-image: url(../../assets/dev.svg);
-	background-repeat: no-repeat;
-	background-size: cover; */
 	position: relative;
 }
 .about__container::before {
@@ -40,7 +37,7 @@
 	padding: 0px 50px;
 }
 .about__text p {
-	font-size: 1.5rem;
+	font-size: 1.1rem;
 }
 .image__container {
 	margin-top: 40px;
