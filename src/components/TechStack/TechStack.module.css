@@ -42,13 +42,29 @@
 	width: 70%;
 	display: flex;
 	justify-content: center;
+	display: none;
 }
 .software {
-	display: none;
 	width: 90%;
 	max-width: 100%;
 	min-width: 400px;
 	position: relative;
 	margin: auto;
 	margin-left: 50px;
+}
+@media screen and (min-width: 1080px) {
+	.tech__wrapper {
+		background: inherit;
+	}
+	.tech__container {
+		display: flex;
+		flex-direction: row;
+	}
+	.image__container {
+		width: 40%;
+		display: flex;
+		justify-content: center;
+		display: block;
+		position: relative;
+	}
 }

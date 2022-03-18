@@ -8,10 +8,12 @@ function TechStack() {
 	return (
 		<article className={styles.tech__wrapper}>
 			<section className={styles.tech__container}>
-				<div className={styles.image__container}>
-					{' '}
-					<img src={software} className={styles.software} alt='software' />
-				</div>
+				<Parallax translateY={[20, 15]}>
+					<div className={styles.image__container}>
+						{' '}
+						<img src={software} className={styles.software} alt='software' />
+					</div>
+				</Parallax>
 				<Parallax translateY={[-10, 15]}>
 					<section className={styles.tech__text}>
 						<Title title='TECH-STACK' />
