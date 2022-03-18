@@ -31,6 +31,7 @@
 	transform: scale(1);
 	transition: transform 0.2s linear;
 	position: relative;
+	filter: grayscale(100%);
 }
 .media {
 	width: 100%;
@@ -48,6 +49,7 @@ section .media img {
 .project__container:hover {
 	transform: scale(1.01);
 	box-shadow: 10px 10px 40px rgb(155, 150, 150);
+	filter: grayscale(0);
 }
 .project__left {
 	height: 12.5%;
@@ -107,8 +109,5 @@ video {
 	height: 400px;
 	border-top-right-radius: inherit;
 	border-bottom-right-radius: inherit;
-	filter: grayscale(100%);
-}
-video:hover {
-	filter: grayscale(0);
+	/* filter: grayscale(100%); */
 }
