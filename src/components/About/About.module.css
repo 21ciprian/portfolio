@@ -51,8 +51,8 @@
 	width: 90%;
 	max-width: 100%;
 	min-width: 470px;
-	margin: auto;
 	margin-right: 50px;
+	/* border: 2px solid red; */
 }
 @media screen and (min-width: 1080px) {
 	.about__wrapper {
@@ -61,12 +61,28 @@
 	.about__container {
 		display: flex;
 		flex-direction: row;
+		justify-content: center;
+		margin: auto;
+		padding: 50px 0 50px;
+
+		width: 70%;
+		/* border: 2px solid red; */
+	}
+	.about__text {
+		/* border: 2px solid blue; */
+		width: 70%;
+		/* margin: auto; */
 	}
 	.image__container {
-		width: 40%;
+		width: 50%;
+		/* border: 2px solid blue; */
+
 		display: flex;
 		justify-content: center;
 		display: block;
 		position: relative;
+	}
+	.programmer {
+		margin-left: -200px;
 	}
 }

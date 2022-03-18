@@ -13,8 +13,8 @@ function About() {
 					<section className={styles.about__text}>
 						<Title title='ABOUT ME' />
 						<p>
-							Hi, I'm Ciprian, a <strong>full-stack developer</strong> and{' '}
-							<em>"a man of many trades"</em> as my friends would call me.
+							Hi, I'm Ciprian, a London based{' '}
+							<strong>full-stack developer</strong>.
 						</p>
 						<p>
 							I am passionate about coding and problem solving and began
