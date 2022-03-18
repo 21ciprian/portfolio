@@ -29,9 +29,11 @@ function Projects() {
 									<h6>Tech Used:</h6>
 
 									<section className={styles.tech}>
-										{p.tech.map(t => {
-											return <p key={t}>{t}</p>
-										})}
+										<ul>
+											{p.tech.map(t => {
+												return <li key={t}>{t}</li>
+											})}
+										</ul>
 									</section>
 									<div className={styles.project__btnLinks}>
 										<Button link={p.gitLink} name='GitHub' />
@@ -39,13 +41,16 @@ function Projects() {
 									</div>
 								</div>
 							</section>
-							<video
-								key={p.id}
-								onMouseOver={playVideo}
-								onMouseOut={pauseVideo}
-								preload='auto'
-								loop
-								src={p.src}></video>
+							<section className={styles.media}>
+								<img src={p.img} alt={p.name} />
+								<video
+									key={p.id}
+									onMouseOver={playVideo}
+									onMouseOut={pauseVideo}
+									preload='auto'
+									loop
+									src={p.src}></video>
+							</section>
 						</section>
 					)
 				})}

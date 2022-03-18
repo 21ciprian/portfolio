@@ -51,7 +51,7 @@ const projectsData = [
 	},
 	{
 		id: 3,
-		name: 'Covid-19 cases tracker',
+		name: 'Covid-19 tracker',
 		description:
 			'Covid-19 tracker app that allows you see the latest covid cases worldwide or in a specific country.',
 		tech: [
