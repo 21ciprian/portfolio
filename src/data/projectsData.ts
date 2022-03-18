@@ -1,10 +1,10 @@
-import card from '../assets/card.mp4'
+import card from '../assets/card54.mp4'
 import cardP from '../assets/card_s.png'
+import covid from '../assets/covid54.mp4'
 import covidP from '../assets/covid_s.png'
-import fridge from '../assets/fridge.mp4'
+import fridge from '../assets/fridge54.mp4'
 import fridgeP from '../assets/fridge_s.png'
-import map from '../assets/map.mp4'
-import poke from '../assets/poke.mp4'
+import poke from '../assets/poke54.mp4'
 import pokeP from '../assets/poke_s.png'
 
 const projectsData = [
@@ -69,7 +69,7 @@ const projectsData = [
 		gitLink: 'https://github.com/21ciprian/corona-virus-tracker',
 		launch: 'https://c19tracker22.netlify.app',
 		img: covidP,
-		src: map,
+		src: covid,
 	},
 	{
 		id: 4,

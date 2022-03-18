@@ -54,3 +54,19 @@
 	margin: auto;
 	margin-right: 50px;
 }
+@media screen and (min-width: 1080px) {
+	.about__wrapper {
+		background: inherit;
+	}
+	.about__container {
+		display: flex;
+		flex-direction: row;
+	}
+	.image__container {
+		width: 40%;
+		display: flex;
+		justify-content: center;
+		display: block;
+		position: relative;
+	}
+}
