@@ -1,7 +1,11 @@
 import card from '../assets/card.mp4'
+import cardP from '../assets/card_s.png'
+import covidP from '../assets/covid_s.png'
 import fridge from '../assets/fridge.mp4'
+import fridgeP from '../assets/fridge_s.png'
 import map from '../assets/map.mp4'
 import poke from '../assets/poke.mp4'
+import pokeP from '../assets/poke_s.png'
 
 const projectsData = [
 	{
@@ -22,6 +26,7 @@ const projectsData = [
 		],
 		gitLink: 'https://github.com/21ciprian/memory-card-game',
 		launch: 'https://matching-cards-js.netlify.app',
+		img: cardP,
 		src: card,
 	},
 	{
@@ -41,6 +46,7 @@ const projectsData = [
 		],
 		gitLink: 'https://github.com/21ciprian/poke-that-mon',
 		launch: 'https://poke-that-mon.netlify.app',
+		img: pokeP,
 		src: poke,
 	},
 	{
@@ -62,6 +68,7 @@ const projectsData = [
 		],
 		gitLink: 'https://github.com/21ciprian/corona-virus-tracker',
 		launch: 'https://c19tracker22.netlify.app',
+		img: covidP,
 		src: map,
 	},
 	{
@@ -85,6 +92,7 @@ const projectsData = [
 		],
 		gitLink: 'https://be-fridgeful.netlify.app/',
 		launch: 'https://be-fridgeful.netlify.app/',
+		img: fridgeP,
 		src: fridge,
 	},
 ]
