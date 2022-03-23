@@ -5,16 +5,6 @@ import styles from './Projects.module.css'
 
 console.log('projectsData: ', projectsData)
 function Projects() {
-	function playVideo(e: React.MouseEvent<HTMLVideoElement>) {
-		console.log('play')
-		e.preventDefault()
-		e.currentTarget.play()
-	}
-	function pauseVideo(e: React.MouseEvent<HTMLVideoElement>) {
-		console.log('pause')
-		e.preventDefault()
-		e.currentTarget.pause()
-	}
 	return (
 		<section id='projects' className={styles.projects}>
 			<Title title='PROJECTS' />
