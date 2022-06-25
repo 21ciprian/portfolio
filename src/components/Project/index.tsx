@@ -49,13 +49,6 @@ function Project({project}: ProjectProps) {
 			</section>
 			<section className={styles.media}>
 				<img src={project.img} alt={project.name} />
-				<video
-					key={project.id}
-					onMouseOver={playVideo}
-					onMouseOut={pauseVideo}
-					preload='auto'
-					loop
-					src={project.src}></video>
 			</section>
 		</section>
 	)
