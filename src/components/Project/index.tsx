@@ -1,4 +1,3 @@
-import React from 'react'
 import Button from '../Button'
 import styles from './Project.module.css'
 
@@ -16,16 +15,6 @@ type ProjectProps = {
 }
 
 function Project({project}: ProjectProps) {
-	function playVideo(e: React.MouseEvent<HTMLVideoElement>) {
-		console.log('play')
-		e.preventDefault()
-		e.currentTarget.play()
-	}
-	function pauseVideo(e: React.MouseEvent<HTMLVideoElement>) {
-		console.log('pause')
-		e.preventDefault()
-		e.currentTarget.pause()
-	}
 	return (
 		<section key={project.id} className={styles.project__container}>
 			<section className={styles.project__left}>

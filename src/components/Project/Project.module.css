@@ -78,22 +78,23 @@ section .media img {
 	gap: 0.5rem;
 	justify-content: space-between;
 }
-video {
+/* video {
 	display: none;
 	width: 400px;
 	height: 400px;
 	border-top-right-radius: inherit;
 	border-bottom-right-radius: inherit;
-}
+} */
 
-@media screen and (min-width: 1080px) {
+/* @media screen and (min-width: 1080px) {
 	.project__container {
 		width: 100%;
 		display: flex;
 		max-height: 360px;
 		justify-content: space-evenly;
-	}
-	.project__left {
+	} 
+	}  */
+/* .project__left {
 		position: relative;
 		top: 0;
 		height: 100%;
@@ -103,17 +104,14 @@ video {
 	.project__left:hover {
 		top: 0;
 		left: 0;
-	}
-	.media img {
-		/* display: none; */
-	}
-	.media video {
-		display: block;
-		width: 450px;
-		height: auto;
-		margin: 0;
-		padding: 0;
-		border-top-right-radius: 0.5rem;
-		border-bottom-right-radius: 0.5rem;
-	}
-}
+	} */
+
+/* .media video {
+	display: block;
+	width: 450px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	border-top-right-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
+} */
