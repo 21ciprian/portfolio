@@ -10,7 +10,6 @@ type ProjectProps = {
 		gitLink: string
 		launch: string
 		img: string
-		src: string
 	}
 }
 

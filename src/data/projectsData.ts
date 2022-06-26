@@ -1,10 +1,6 @@
-import card from '../assets/card54.mp4'
 import cardP from '../assets/card_s.png'
-import covid from '../assets/covid54.mp4'
-import covidP from '../assets/covid_s.png'
-import fridge from '../assets/fridge54.mp4'
+import covidP from '../assets/covid.png'
 import fridgeP from '../assets/fridge_s.png'
-import poke from '../assets/poke54.mp4'
 import pokeP from '../assets/poke_s.png'
 
 const projectsData = [
@@ -22,12 +18,11 @@ const projectsData = [
 			'Git Bash',
 			'GitHub',
 			'VSCode',
-			'Netlify',
+			'Netlify'
 		],
 		gitLink: 'https://github.com/21ciprian/memory-card-game',
 		launch: 'https://matching-cards-js.netlify.app',
-		img: cardP,
-		src: card,
+		img: cardP
 	},
 	{
 		id: 2,
@@ -42,12 +37,11 @@ const projectsData = [
 			'Git Bash',
 			'GitHub',
 			'VSCode',
-			'Netlify',
+			'Netlify'
 		],
 		gitLink: 'https://github.com/21ciprian/poke-that-mon',
 		launch: 'https://poke-that-mon.netlify.app',
-		img: pokeP,
-		src: poke,
+		img: pokeP
 	},
 	{
 		id: 3,
@@ -64,12 +58,11 @@ const projectsData = [
 			'Git Bash',
 			'GitHub',
 			'VSCode',
-			'Netlify',
+			'Netlify'
 		],
 		gitLink: 'https://github.com/21ciprian/corona-virus-tracker',
 		launch: 'https://c19tracker22.netlify.app',
-		img: covidP,
-		src: covid,
+		img: covidP
 	},
 	{
 		id: 4,
@@ -88,13 +81,12 @@ const projectsData = [
 			'GitHub',
 			'VSCode',
 			'Heroku',
-			'Netlify',
+			'Netlify'
 		],
 		gitLink: 'https://be-fridgeful.netlify.app/',
 		launch: 'https://be-fridgeful.netlify.app/',
-		img: fridgeP,
-		src: fridge,
-	},
+		img: fridgeP
+	}
 ]
 
 export default projectsData
