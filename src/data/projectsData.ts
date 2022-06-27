@@ -1,5 +1,6 @@
 import cardP from '../assets/card_s.png'
 import covidP from '../assets/covid.png'
+import exp from '../assets/exps.png'
 import fridgeP from '../assets/fridge_s.png'
 import pokeP from '../assets/poke_s.png'
 
@@ -68,9 +69,10 @@ const projectsData = [
 		id: 4,
 		name: 'Fridgeful',
 		description:
-			" A React app created for people who have bought food in excess but don't want to waste food by throwing it away. It allows the user to select his/her existing fridge items and generate a recipe based on those ingredients.",
+			" A PERN app created for people who have bought food in excess but don't want to waste food by throwing it away. It allows the user to select his/her existing fridge items and generate a recipe based on those ingredients.",
 		tech: [
 			'React',
+			'PostgreSQL',
 			'SCSS',
 			'NPM',
 			'Postman',
@@ -86,6 +88,31 @@ const projectsData = [
 		gitLink: 'https://be-fridgeful.netlify.app/',
 		launch: 'https://be-fridgeful.netlify.app/',
 		img: fridgeP
+	},
+	{
+		id: 5,
+		name: 'Expense-Tracker',
+		description:
+			" A MERN app created for people who don't have the possibility of doing transactions online or contactless and they want to keep track of their income and daily expenses.",
+		tech: [
+			'React',
+			'TypeScript',
+			'CSS Modules',
+			'MongoDB',
+			'NPM',
+			'Postman',
+			'SuperTest',
+			'React Testing Library',
+			'Auth0',
+			'Git Bash',
+			'GitHub',
+			'VSCode',
+			'Heroku',
+			'Netlify'
+		],
+		gitLink: 'https://github.com/21ciprian/expense-tracker',
+		launch: 'https://mern-budget-tracker.netlify.app',
+		img: exp
 	}
 ]
 
