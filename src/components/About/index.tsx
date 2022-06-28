@@ -1,7 +1,5 @@
-import React from 'react'
 import {Parallax} from 'react-scroll-parallax'
 import programmer from '../../assets/dev.svg'
-import TechStack from '../TechStack'
 import Title from '../Title'
 import styles from './About.module.css'
 
@@ -18,8 +16,8 @@ function About() {
 						</p>
 						<p>
 							I am passionate about coding and problem solving and began
-							teaching myself how to code while I was working full time in the
-							hospitality industry.
+							teaching myself the core languages of Web Development in 2018
+							while I was working full time as a Bar Manager.
 						</p>
 						<p>
 							I have recently graduated from{' '}
@@ -31,6 +29,18 @@ function About() {
 							</a>{' '}
 							Software Development Bootcamp and I am excited to embark on a new
 							career as software developer.
+						</p>
+						<p>
+							In terms of technologies, I am specialized in HTML, CSS,
+							JavaScript, React on the Frontend, but I am pretty comfortable
+							with Node.JS, Express, PostgreSQL, MongoDB, etc. in order to
+							create full-stack applications.
+						</p>
+						<p>
+							<a href='#contact'>
+								<span>Get in touch</span>
+							</a>{' '}
+							and I will bring your ideas to life!
 						</p>
 					</section>
 				</Parallax>
@@ -44,7 +54,6 @@ function About() {
 					/>
 				</div>
 			</section>
-			<TechStack />
 		</article>
 	)
 }
