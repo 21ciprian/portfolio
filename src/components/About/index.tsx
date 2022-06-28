@@ -7,17 +7,17 @@ function About() {
 	return (
 		<article id='about' className={styles.about__wrapper}>
 			<section className={styles.about__container}>
-				<Parallax translateY={[-10, 20]}>
+				<Parallax translateY={[-10, 10]}>
 					<section className={styles.about__text}>
 						<Title title='ABOUT ME' />
 						<p>
-							Hi, I'm Ciprian, a London based{' '}
-							<strong>full-stack developer</strong>.
+							<strong style={{fontSize: '2rem'}}>Hi, I'm Ciprian,</strong> a
+							London based <strong>full-stack developer</strong>.
 						</p>
 						<p>
 							I am passionate about coding and problem solving and began
-							teaching myself the core languages of Web Development in 2018
-							while I was working full time as a Bar Manager.
+							teaching myself the core languages of Web Development while I was
+							working full time as a Bar Manager.
 						</p>
 						<p>
 							I have recently graduated from{' '}
@@ -44,7 +44,6 @@ function About() {
 						</p>
 					</section>
 				</Parallax>
-
 				<div className={styles.image__container}>
 					{' '}
 					<img
