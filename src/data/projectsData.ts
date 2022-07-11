@@ -2,6 +2,7 @@ import cardP from '../assets/card_s.png'
 import covidP from '../assets/covid.png'
 import exp from '../assets/exps.png'
 import fridgeP from '../assets/fridge_s.png'
+import news from '../assets/news.png'
 import pokeP from '../assets/poke_s.png'
 
 const projectsData = [
@@ -64,6 +65,26 @@ const projectsData = [
 		gitLink: 'https://github.com/21ciprian/corona-virus-tracker',
 		launch: 'https://c19tracker22.netlify.app',
 		img: covidP
+	},
+	{
+		id: 4,
+		name: 'PE3-News',
+		description:
+			'A React web app that displays the latest news from a news API. You can choose to see different news topic on a click of a button or search for particular news by typing in the input field.',
+		tech: [
+			'JavaScript',
+			'React',
+			'CSS Modules',
+			'NPM',
+			'React Testing Library',
+			'Git Bash',
+			'GitHub',
+			'VSCode',
+			'Netlify'
+		],
+		gitLink: 'https://github.com/21ciprian/news-page',
+		launch: 'https://pe3-news.netlify.app',
+		img: news
 	},
 	{
 		id: 4,
