@@ -41,6 +41,7 @@
 }
 .image__container {
 	margin-top: 40px;
+	/* border: 2px solid black; */
 
 	width: 100%;
 	display: flex;
@@ -53,6 +54,9 @@
 	min-width: 470px;
 	margin-right: 50px;
 	/* border: 2px solid red; */
+	margin-bottom: 140px;
+	margin-top: -40px;
+
 	/* object-fit: cover; */
 }
 @media screen and (min-width: 1080px) {
