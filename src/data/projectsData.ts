@@ -43,7 +43,7 @@ const projectsData = [
 			'VSCode',
 			'Netlify'
 		],
-		gitLink: 'https://github.com/21ciprian/poke-that-mon',
+		gitLink: 'https://github.com/21ciprian/password-generator',
 		launch: 'https://pass-g.netlify.app/',
 		img: pass
 	},
