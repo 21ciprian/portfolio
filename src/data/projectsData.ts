@@ -1,4 +1,5 @@
 import cardP from '../assets/card_s.png'
+import catz from '../assets/catz.png'
 import covidP from '../assets/covid.png'
 import exp from '../assets/exps.png'
 import fridgeP from '../assets/fridge_s.png'
@@ -87,7 +88,29 @@ const projectsData = [
 		img: news
 	},
 	{
-		id: 4,
+		id: 5,
+		name: 'Catz.Nation',
+		description:
+			'A React, Next.js, TypeScript web app that displays cats data from a cats API. You can filter through the cats collection by origin, lifespan, weight by spimply choosing an option from the dropdown menus or search for particular cat breed by typing in the input field.',
+		tech: [
+			'JavaScript',
+			'React',
+			'Next.js',
+			'TypeScript',
+			'Styled Components',
+			'NPM',
+			'React Testing Library',
+			'Git Bash',
+			'GitHub',
+			'VSCode',
+			'Vercel'
+		],
+		gitLink: 'https://github.com/21ciprian/catz-nation',
+		launch: 'https://catz-nation.vercel.app/',
+		img: catz
+	},
+	{
+		id: 6,
 		name: 'Fridgeful',
 		description:
 			" A PERN app created for people who have bought food in excess but don't want to waste food by throwing it away. It allows the user to select his/her existing fridge items and generate a recipe based on those ingredients.",
@@ -111,7 +134,7 @@ const projectsData = [
 		img: fridgeP
 	},
 	{
-		id: 5,
+		id: 7,
 		name: 'Expense-Tracker',
 		description:
 			" A MERN app created for people who don't have the possibility of doing transactions online or contactless and they want to keep track of their income and daily expenses.",
