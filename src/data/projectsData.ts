@@ -48,7 +48,7 @@ const projectsData = [
 		img: pass
 	},
 	{
-		id: 2,
+		id: 3,
 		name: 'Poke-that-mon',
 		description:
 			'Pokemon app that allows you to search for your favourite pokemon in PokeAPI database and displays its stats. ',
@@ -67,7 +67,7 @@ const projectsData = [
 		img: pokeP
 	},
 	{
-		id: 3,
+		id: 4,
 		name: 'Covid-19 tracker',
 		description:
 			'Covid-19 tracker app that allows you see the latest covid cases worldwide or in a specific country.',
@@ -88,7 +88,7 @@ const projectsData = [
 		img: covidP
 	},
 	{
-		id: 4,
+		id: 5,
 		name: 'PE3-News',
 		description:
 			'A React web app that displays the latest news from a news API. You can choose to see different news topic on a click of a button or search for particular news by typing in the input field.',
@@ -108,7 +108,7 @@ const projectsData = [
 		img: news
 	},
 	{
-		id: 5,
+		id: 6,
 		name: 'Catz.Nation',
 		description:
 			'A React, Next.js, TypeScript web app that displays cats data from a cats API. You can filter through the cats collection by origin, lifespan, weight by spimply choosing an option from the dropdown menus or search for particular cat breed by typing in the input field.',
@@ -130,7 +130,7 @@ const projectsData = [
 		img: catz
 	},
 	{
-		id: 6,
+		id: 7,
 		name: 'Fridgeful',
 		description:
 			" A PERN app created for people who have bought food in excess but don't want to waste food by throwing it away. It allows the user to select his/her existing fridge items and generate a recipe based on those ingredients.",
@@ -154,7 +154,7 @@ const projectsData = [
 		img: fridgeP
 	},
 	{
-		id: 7,
+		id: 8,
 		name: 'Expense-Tracker',
 		description:
 			" A MERN app created for people who don't have the possibility of doing transactions online or contactless and they want to keep track of their income and daily expenses.",
