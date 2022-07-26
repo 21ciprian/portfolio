@@ -4,6 +4,7 @@ import covidP from '../assets/covid.png'
 import exp from '../assets/exps.png'
 import fridgeP from '../assets/fridge_s.png'
 import news from '../assets/news.png'
+import pass from '../assets/pass.png'
 import pokeP from '../assets/poke_s.png'
 
 const projectsData = [
@@ -26,6 +27,25 @@ const projectsData = [
 		gitLink: 'https://github.com/21ciprian/memory-card-game',
 		launch: 'https://matching-cards-js.netlify.app',
 		img: cardP
+	},
+	{
+		id: 2,
+		name: 'Password Generator Tool',
+		description:
+			'A React TypeScript web app that allows you to generate very secure password up to 50 characters. You can choose to have lowercase , uppercase letters as well ass numbers and symbols.',
+		tech: [
+			'React',
+			'TypeScript',
+			'CSS Modules',
+			'NPM',
+			'Git Bash',
+			'GitHub',
+			'VSCode',
+			'Netlify'
+		],
+		gitLink: 'https://github.com/21ciprian/poke-that-mon',
+		launch: 'https://pass-g.netlify.app/',
+		img: pass
 	},
 	{
 		id: 2,
