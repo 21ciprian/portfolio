@@ -32,7 +32,7 @@ const projectsData = [
 		id: 2,
 		name: 'Password Generator Tool',
 		description:
-			'A React TypeScript web app that allows you to generate very secure password up to 50 characters. You can choose to have lowercase , uppercase letters as well ass numbers and symbols.',
+			'A React TypeScript web app that allows you to generate very secure password up to 50 characters. You can choose to have lowercase , uppercase letters as well as numbers and symbols.',
 		tech: [
 			'React',
 			'TypeScript',
